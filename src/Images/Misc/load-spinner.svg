@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <defs>
+  <circle id="animationPath" cx="25" cy="25" r="20"></circle>
+</defs>
+<!-- <use id="loading-bar" href="#animationPath" stroke="grey" stroke-width="3" fill="none" stroke-dasharray="125 0"  stroke-linecap="round"/> -->
+
+<use id="loading-bar" href="#animationPath" stroke="black" stroke-width="3" fill="none" stroke-dasharray="30 95"  stroke-linecap="round">
+  <animate
+      attributeName="stroke-dashoffset"
+      from="0"
+      to="125"
+      dur="0.5s"
+      begin="0s"
+      fill="freeze"
+      repeatCount="indefinite"/>
+</use>
+<use id="loading-bar" href="#animationPath" stroke="black" stroke-width="3" fill="none" stroke-dasharray="20 115"  stroke-linecap="round">
+  <animate
+      attributeName="stroke-dashoffset"
+      from="0"
+      to="125"
+      dur="0.3s"
+      begin="0s"
+      fill="freeze"
+      repeatCount="indefinite"/>
+</use>
+   
+<use id="loading-bar" href="#animationPath" stroke="black" stroke-width="3" fill="none" stroke-dasharray="50 75"  stroke-linecap="round">
+  <animate
+      attributeName="stroke-dashoffset"
+      from="0"
+      to="125"
+      dur="1s"
+      begin="0s"
+      fill="freeze"
+      repeatCount="indefinite"/>
+</use>
+
+   </svg>

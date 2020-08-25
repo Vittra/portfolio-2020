@@ -1,0 +1,7 @@
+.Navigation{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    position: fixed;
+    justify-content: space-between;
+}

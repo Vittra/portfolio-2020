@@ -1,0 +1,29 @@
+*{
+  font-family: AvenirNext-Regular;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+}
+
+.loading{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100vw;
+}
+
+.copyright-link{
+  color: black !important;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  margin-bottom: 20px;
+}
+
+body { padding: env(safe-area-inset, 0px); }

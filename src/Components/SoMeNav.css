@@ -1,0 +1,56 @@
+.SoMeNav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+    right: 50px;
+    top: calc(90vh - 50px);
+    position: fixed;
+    z-index: 10;
+}
+/* 
+.SoMeNav:before{
+    content: " ";
+    height: 50vh;
+} */
+
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.SoMeNavLink {
+    color: black !important;
+    font-size: 0.8rem;
+    width: 30px;
+}
+
+object{
+    pointer-events: none;
+}
+
+
+@media (hover: none) and (max-height: 825px)  {
+    .SoMeNav{
+        flex-direction: row;
+        top: 5vw;
+        width: 90vw;
+        left:5vw;
+        right: unset;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .SoMeNav a{
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 100%;
+    }
+    
+
+}
