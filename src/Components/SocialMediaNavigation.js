@@ -7,10 +7,12 @@ const soMeNav = () =>{
     return(
         <div className="SoMeNav">
             <a className="SoMeNavLink" href="https://www.linkedin.com/in/thomasbjorksund" target="_blank" rel="noopener noreferrer" >
-                <img src={linkedin} alt="Link to linked in" />
+                Linkedin
+                {/* <img src={linkedin} alt="Link to linked in" /> */}
             </a>
              <a className="SoMeNavLink" href="mailto:thomas.bjorksund@axakon.se?subject=Want to connect with you&body=Hi Thomas!" > 
-                 <img src={mail} alt="Link to send a mail" />
+                 Email
+                 {/* <img src={mail} alt="Link to send a mail" /> */}
             </a>
 
         </div>

@@ -1,19 +1,14 @@
 .SoMeNav{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 50px;
     right: 50px;
+    bottom: 0px;
     top: calc(90vh - 50px);
     position: fixed;
     z-index: 10;
 }
-/* 
-.SoMeNav:before{
-    content: " ";
-    height: 50vh;
-} */
 
 
 a{
@@ -37,19 +32,24 @@ object{
 
 @media (hover: none) and (max-height: 825px)  {
     .SoMeNav{
-        flex-direction: row;
-        top: 5vw;
-        width: 90vw;
-        left:5vw;
-        right: unset;
+        height: 6vh;
+        max-height: 40px;
+        width: 50vw;
+        top: 0vw;
+        left:20vw;
         align-self: center;
         justify-self: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding-left: 5vw;
+        padding-right: 5vw;
+        border-radius: 0  0 10px 10px ;
+
     }
 
     .SoMeNav a{
-        background-color: rgba(255, 255, 255, 0.9);
-        padding: 15px;
-        border-radius: 100%;
+        /* background-color: rgba(255, 255, 255, 0.9); */
+        padding: 5px;
+        font-weight: 600;
     }
     
 
