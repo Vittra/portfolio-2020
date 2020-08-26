@@ -16,13 +16,13 @@ import image32k from '../Images/Moblrn/32k.jpg';
 import image34k from '../Images/Moblrn/34k.jpg';
 
 
-const role ="UX/UI, Projectlead"
+const role ="UX/UI, Project lead"
 const company = "Moblrn"
 const year = "2018/19/20"
 const heroImageAlt = "3 different screens from the product displayed on 3 computer screens"
 const description = "Moblrn's all-in-one tool can create and publish digital training, without any previous technical skills."
 const roleDescription = "My role in this project is to oversee all design and usability. This includes webpage, self-service checkout, android/iOS application, CMS & Web browser applications."
-const result = "The constant goal with Moblrn is to update the development with newfeatures and push the visuals to their uttermost potential. To satisfy stakeholders and users is the core to all new development. When I started with this project 2018 my first challenge was to redesign the application for users, this needed to work both on desktop and on smartphones. After that was achieved I moved on to sync the rest of their offerings with this newly designed applications, after that the role has increased in both the amount of parts I’m involved with and also my role has grown from UI to include both UX, projectlead, facilitator for workshops and presentations."
+const result = "The constant goal with Moblrn is to update the development with new features and push the visuals to their uttermost potential. To satisfy stakeholders and users is the core of all new development. When I started with this project 2018 my first challenge was to redesign the application for users, this needed to work both on desktop and on smartphones. After that was achieved I moved on to sync the rest of their offerings with this newly designed applications, after that the role has increased in both the number of parts I’m involved with and also my role has grown from UI to include both UX, project lead, facilitator for workshops and presentations."
 const descImage1 = "The image to the left is the base that I got from the development team. With a basic flow and the words 'Make it look better and make it easier to use' my journey with Moblrn started and hasn't ended since. As you traverse to the right you can see each of my implementations of design until I reached the far right with the final and live design"
 const altImage1 = "Image of work I've done for Moblrn"
 const descImage2 = "After the app was completed my focus was changed to the public website. I did a complete research and compared what the competition was doing and tried to align my findings with Moblrns visual guidelines."
