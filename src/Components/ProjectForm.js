@@ -8,6 +8,9 @@ import LoadSpinner from '../Images/Misc/load-spinner.svg'
 
 
 const projectform = (props) => {
+
+
+
     return(
         <div className="Project">
             <LazyLoad height={'100vh'} >

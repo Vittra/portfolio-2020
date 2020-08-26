@@ -1,11 +1,12 @@
 *{
     font-family: AvenirNext-Regular;
+    color: #272727 ;
 }
 
 
 
 body{
-    background-color: #FFF;
+    background-color: #fff;
 }
 
 a:visited{
@@ -110,33 +111,19 @@ h2{
 
 .react-multiple-carousel__arrow--left, .react-multiple-carousel__arrow--right{
     top: 50vh;
-    /* background-color: transparent !important; */
     margin-top: 0 !important;
-    position: fixed !important;
+    position: absolute !important;
     height: 0;
+    padding-right: 15px;
+    padding-left: 15px;
     color: white;
     background-color: rgba(246,246,246,0.75) !important;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.20);
 }
 .react-multiple-carousel__arrow--left{
     left: 1vw !important;
-    padding-right: 15px;
-    padding-left: 15px;
-    /* margin-left: 12vw; */
     overflow: hidden;
 } 
-
-
-.react-multiple-carousel__arrow--left:hover{
-    padding-right: 130px;
-
-}
-
-
-
-.react-multiple-carousel__arrow--right:hover{
-    padding-left: 110px;
-}
 
 @media screen and (hover: hover) {
     .react-multiple-carousel__arrow--left:hover::after{
@@ -148,10 +135,15 @@ h2{
         content: "Next project";
         right: 40px;
     }
+
+    .react-multiple-carousel__arrow--left:hover{
+        padding-right: 130px;
+    }
+    
+    .react-multiple-carousel__arrow--right:hover{
+        padding-left: 110px;
+    }
  }
-
-
-
 
 .react-multiple-carousel__arrow::before{
     color: black !important;
@@ -160,16 +152,12 @@ h2{
 
 .react-multiple-carousel__arrow--right{
     right: 1vw !important;
-    padding-left: 15px;
-    padding-right: 15px;
     /* margin-right: 12vw; */
     overflow: hidden;
 }
 .react-multiple-carousel__arrow {
     transition: all 0.3s !important;
 }
-
-
 
 .react-multiple-carousel__arrow::after {
     position: absolute;
@@ -230,8 +218,6 @@ h2{
     margin-bottom: 40px;
 } 
 
-.CarouselDots{
-}
 
 li{
     margin: 0px !important;
@@ -269,13 +255,20 @@ font-style: italic;
 
 
 @media (hover: none) and (max-height: 825px)  {
+    .HeroCardTitleWrapper{
+        width: 100vw;
+    }
+
+
     h1{
         /* font-size: 2rem; */
         top: 42vh;
+        font-size: 3rem;
 
     }
     h2{
         top: 48vh;
+        font-size: 0.8rem;
     }
 
     .projectImagesDescription:last-child{
@@ -290,27 +283,24 @@ font-style: italic;
     .ProjectDetailsWrapper{
         max-width: 90vw;
     }
-   
+
+
     .react-multiple-carousel__arrow--left{
-        left: 0 !important;
-        padding: 0 !important;
-        background-color: transparent !important;
-        top: 46vh;
+        left: 5vw !important;
         margin-left: 0vw;
+        top: 80vh;
+
+        
+
     }
     
     .react-multiple-carousel__arrow--right{
-        right: 0 !important;
-        padding: 0 !important;
-        background-color: transparent !important;
-        top: 46vh;
+        right:5vw !important;
         margin-right: 0vw;
+        top: 80vh;
+
     }
 
-    .react-multiple-carousel__arrow::before {
-        text-shadow: 0 0px 10px rgba(0,0,0,1);
-        color: white !important;
-    }
 
     .ProjectTitle{
         margin-top: 3vh;
@@ -344,10 +334,6 @@ font-style: italic;
     .react-multiple-carousel__arrow--left, .react-multiple-carousel__arrow--right{
         
         box-shadow: none;
-    }
-
-    h2{
-        font-size: 1rem;
     }
 
     .splitter{

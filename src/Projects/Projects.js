@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Projectform from '../Components/ProjectForm';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -29,9 +29,9 @@ class projects extends Component {
       // }
     ]
   };
-
   
   render() {
+
     const responsive = {
       desktop: {
         breakpoint: { max: 3000, min: 1024 },
@@ -95,6 +95,8 @@ class projects extends Component {
           </Carousel>
         );
       };
+
+     
     }
 
 export default projects
